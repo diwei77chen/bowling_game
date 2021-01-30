@@ -1,0 +1,23 @@
+{
+  "name": "bowling_game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diwei77chen/bowling_game.git"
+  },
+  "author": "diwei77chen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diwei77chen/bowling_game/issues"
+  },
+  "homepage": "https://github.com/diwei77chen/bowling_game#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
