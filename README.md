@@ -1,9 +1,5 @@
 # Solution Stack
 This exercise is done with Node.js. The only reason to use Node.js is to leverage Jest.js testing framework.
-### **Description**
-  1. GUIs or command line interfaces are not provided to run the exercise.
-  1. It's expected that the test cases in the `index.test.js` file cover all the situations that could happen in the bowling game exercise.
-  1. Please feel free to add more test cases to the test file.
 # Run the exercise
 ### 1. Setup 
 Please have a Node dependency installed in your environment:
@@ -16,3 +12,9 @@ Open a new terminal window, change the directory to this project:
     `npm start`
     or
     `npm test`
+
+# Notes
+  1. GUIs or command line interfaces are not provided to run the exercise.
+  1. The exercise starts with the *index.js* file. The scripts in the file only cover the edge case - one has a strike for every roll. It will output the score for this case.
+  1. It's expected that the test cases in the *index.test.js* file cover all the situations that could happen in the bowling game exercise. However, you are free to add more test cases to the test file.
+  1. The codes are well commented and function/variable names are expected to explain themselves.
