@@ -15,6 +15,7 @@ Open a new terminal window, change the directory to this project:
 
 # Notes
   1. GUIs or command line interfaces are not provided to run the exercise.
-  1. The exercise starts with the *index.js* file. The scripts in the file only cover the edge case - one has a strike for every roll. It will output the score for this case.
-  1. It's expected that the test cases in the *index.test.js* file cover all the situations that could happen in the bowling game exercise. However, you are free to add more test cases to the test file.
+  1. The exercise starts with the *index.js* file. The statements in the file only cover the edge case - one has a strike for every roll. It will output the score for this case.
+  1. It is expected that the test cases in the *index.test.js* file cover all the situations that could happen in the bowling game exercise. However, you are free to add more test cases to the test file.
   1. The codes are well commented and function/variable names are expected to explain themselves.
+  1. Unit testing is not done for every module/class. *Game.test.js* is used for demo purpose for how unit testing should work for a class.
