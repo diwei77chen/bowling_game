@@ -13,14 +13,16 @@ class Game {
     }
     increaseScore(value) {
         if (isNaN(value) || value < 0) {
-            console.error("Please enter a positive number to increase the score.");
+            // TODO Graceful Degradation
+            console.log("Please enter a positive number to increase the score.");
             return;
         }
         this._totalScore += value;
     }
     decreaseScore(value) {
         if (isNaN(value) || value < 0) {
-            console.error("Please enter a positive number to decrease the score.");
+            // TODO Graceful Degradation
+            console.log("Please enter a positive number to decrease the score.");
             return;
         }
         this._totalScore -= value;
@@ -30,7 +32,8 @@ class Game {
     }
     set isGameClosed(value) {
         if (typeof value !== "boolean") {
-            console.error("Please pass in a boolean value.");
+            // TODO Graceful Degradation
+            console.log("Please pass in a boolean value.");
             return;
         }
         this._isGameClosed = value;

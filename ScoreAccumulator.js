@@ -23,7 +23,8 @@ class ScoreAccumulator {
 
     getMyAccumulation() {
         if (this._accumulator.length < 1) {
-            console.error("Please initialise the accumulator with an array length greater than zero.");
+            // TODO Graceful Degradation
+            console.log("Please initialise the accumulator with an array length greater than zero.");
             return;
         }
         return this._accumulator[0];

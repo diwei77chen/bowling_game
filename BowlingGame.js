@@ -67,11 +67,13 @@ class BowlingGame extends Game {
 
     roll(noOfPins) {
         if (isNaN(noOfPins) || noOfPins < 0 || noOfPins > this.numberOfPins) {
-            console.error(`Please enter a valid number between 0 and ${this.numberOfPins}.`);
+            // TODO Graceful Degradation
+            console.log(`Please enter a valid number between 0 and ${this.numberOfPins}.`);
             return;
         }
         if (this.remainingTries <= 0) {
-            console.error("You're done! Please have a new game.");
+            // TODO Graceful Degradation
+            console.log("You're done! Please have a new game.");
             return;
         }
         
